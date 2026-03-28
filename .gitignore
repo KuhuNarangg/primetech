@@ -1,5 +1,5 @@
 venv/
 node_modules/
 .env
-__pycache__/git add .
-git commit -m "initial clean commit"
+__pycache__/
+dist/
