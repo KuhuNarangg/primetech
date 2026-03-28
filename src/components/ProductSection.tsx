@@ -55,6 +55,7 @@ const ProductSection = () => {
               {/* IMAGE AREA */}
               <div className="w-full lg:w-1/2 h-60 sm:h-80 md:h-[450px] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl relative group">
                   <img 
+                    loading="lazy"
                     src={product.image} 
                     alt={product.title} 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 

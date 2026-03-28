@@ -34,7 +34,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#1B4332]">
       <motion.div initial={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 15, repeat: Infinity, repeatType: "reverse" }} className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-[#1B4332]/95 z-10" />
-        <img src={heroImage} alt="Biochar and Energy Solutions" className="w-full h-full object-cover" />
+        <img src={heroImage} alt="Biochar and Energy Solutions" className="w-full h-full object-cover" loading="lazy" />
       </motion.div>
 
       {/* pt-32 on mobile, pt-48 on desktop */}

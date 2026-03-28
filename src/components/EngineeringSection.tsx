@@ -50,6 +50,7 @@ const EngineeringSection = () => {
           {/* IMAGE CONTAINER */}
           <div className="relative aspect-square rounded-[4rem] overflow-hidden border-8 border-white shadow-2xl z-10">
             <img 
+              loading="lazy"
               src={engineeringImage} 
               alt="Biochar Pyrolysis Production Process" 
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700" 

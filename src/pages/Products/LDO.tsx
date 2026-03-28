@@ -31,7 +31,7 @@ const LDO = () => {
           {/* Hero Section */}
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
             <div className="w-full lg:w-1/2 rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl h-60 md:h-[500px] lg:h-[600px] order-1">
-              <img src={productImage} alt="Light Diesel Oil Product" className="w-full h-full object-cover" />
+              <img src={productImage} alt="Light Diesel Oil Product" className="w-full h-full object-cover" loading="lazy" />
             </div>
 
             <div className="w-full lg:w-1/2 order-2">
@@ -84,7 +84,7 @@ const LDO = () => {
                 </div>
               </div>
               <div className="rounded-[2rem] overflow-hidden shadow-xl h-60 md:h-[400px]">
-                <img src={heroImage} alt="Light Diesel Oil Drums" className="w-full h-full object-cover" />
+                <img src={heroImage} alt="Light Diesel Oil Drums" className="w-full h-full object-cover" loading="lazy" />
               </div>
             </div>
           </section>
@@ -93,7 +93,7 @@ const LDO = () => {
           <section className="mt-20 md:mt-32">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-[2rem] overflow-hidden shadow-xl h-60 md:h-[400px]">
-                <img src={industryImage} alt="LDO Industrial Applications" className="w-full h-full object-cover" />
+                <img src={industryImage} alt="LDO Industrial Applications" className="w-full h-full object-cover" loading="lazy" />
               </div>
               <div className="order-1 lg:order-2">
                 <div className="flex items-center gap-3 mb-4">

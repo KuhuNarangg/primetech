@@ -39,6 +39,7 @@ const SiteNavbar = () => {
               <div className="absolute inset-0 bg-[#74C69D]/10 blur-2xl rounded-full opacity-60" />
             )}
             <img 
+              loading="lazy"
               src={logo} 
               alt="Primetech Logo" 
               className={`relative z-10 transition-all duration-500 object-contain ${

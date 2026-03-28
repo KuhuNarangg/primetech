@@ -32,7 +32,7 @@ const Biochar = () => {
           {/* Hero Section */}
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
             <div className="w-full lg:w-1/2 rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl h-60 md:h-[500px] lg:h-[600px] order-1">
-              <img src={productImage} alt="Premium Biochar Product" className="w-full h-full object-cover" />
+              <img src={productImage} alt="Premium Biochar Product" className="w-full h-full object-cover" loading="lazy" />
             </div>
 
             <div className="w-full lg:w-1/2 order-2">
@@ -77,7 +77,7 @@ const Biochar = () => {
                 </p>
               </div>
               <div className="rounded-[2rem] overflow-hidden shadow-xl h-60 md:h-[400px]">
-                <img src={soilImage} alt="Biochar Enriched Soil" className="w-full h-full object-cover" />
+                <img src={soilImage} alt="Biochar Enriched Soil" className="w-full h-full object-cover" loading="lazy" />
               </div>
             </div>
           </section>
@@ -86,7 +86,7 @@ const Biochar = () => {
           <section className="mt-20 md:mt-32">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-[2rem] overflow-hidden shadow-xl h-60 md:h-[400px]">
-                <img src={processImage} alt="Biochar Pyrolysis Process" className="w-full h-full object-cover" />
+                <img src={processImage} alt="Biochar Pyrolysis Process" className="w-full h-full object-cover" loading="lazy" />
               </div>
               <div className="order-1 lg:order-2">
                 <div className="flex items-center gap-3 mb-4">
@@ -118,7 +118,7 @@ const Biochar = () => {
               </p>
             </div>
             <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-[#1B4332]/10">
-              <img src={marketImage} alt="Biochar Market Growth Projection Data" className="w-full h-auto object-contain bg-white" />
+              <img src={marketImage} alt="Biochar Market Growth Projection Data" className="w-full h-auto object-contain bg-white" loading="lazy" />
             </div>
             <div className="mt-8 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-[#F0F4F0] p-6 rounded-2xl text-center">
